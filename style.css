@@ -1,0 +1,10 @@
+body {
+  font-family: "Unbounded", cursive;
+}
+.navi {
+  list-style: none;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}

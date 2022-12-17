@@ -4,19 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500;600;900&display=swap"
+      rel="stylesheet"
+    />
     <title>CV_Pervykh_A</title>
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="#About me">About me</a></li>
-          <li><a href="#Contacts">Contacts</a></li>
-          <li><a href="#Skills">Skills</a></li>
-          <li><a href="#Code example">Code example</a></li>
-          <li><a href="#My projects">My projects</a></li>
-          <li><a href="#Education">Education</a></li>
-          <li><a href="#Language skills">Language skills</a></li>
+        <ul class="navi">
+          <li><a href="#About me" class="naviitem">About me</a></li>
+          <li><a href="#Contacts" class="naviitem">Contacts</a></li>
+          <li><a href="#Skills" class="naviitem">Skills</a></li>
+          <li><a href="#Code example" class="naviitem">Code example</a></li>
+          <li><a href="#My projects" class="naviitem">My projects</a></li>
+          <li><a href="#Education" class="naviitem">Education</a></li>
+          <li>
+            <a href="#Language skills" class="naviitem">Language skills</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -51,11 +60,19 @@
       <div>
         <h2 id="Code example">Code example</h2>
         <code>
-          function contact(name, number) { this.name = name; this.number =
-          number; this.print = function (name, number) { console.log(name + ': '
-          + number); } } var a = new contact("David", 12345); var b = new
-          contact("Amy", 987654321); a.print(a.name, a.number); b.print(b.name,
-          b.number);
+          <pre>
+function contact(name, number) { 
+  this.name = name; 
+  this.number = number; 
+  this.print = function (name, number) { 
+    console.log(name + ': '+ number);
+  } 
+} 
+var a = new contact("David", 12345); 
+var b = new
+contact("Amy", 987654321); a.print(a.name, a.number); b.print(b.name, b.number);
+        </pre
+          >
         </code>
       </div>
       <div>
