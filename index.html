@@ -10,27 +10,29 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">My projects</a></li>
-          <li><a href="#">Education</a></li>
-          <li><a href="#">Language skills</a></li>
+          <li><a href="#About me">About me</a></li>
+          <li><a href="#Contacts">Contacts</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Code example">Code example</a></li>
+          <li><a href="#My projects">My projects</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#Language skills">Language skills</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <div>
         <h1>Aleksandr Pervykh</h1>
-        <h2>Front-End Developer</h2>
+        <h3>Front-End Developer</h3>
       </div>
+      <div><img src="./assets/img/My photo.jpg" alt="My photo" /></div>
       <div>
-        <h2>About me</h2>
+        <h2 id="About me">About me</h2>
         I am a beginner in coding. Currently my profession is not connected with
         IT sphere. But I am really interested in becoming a Front-End developer.
       </div>
       <div>
-        <h2>Contacts</h2>
+        <h2 id="Contacts">Contacts</h2>
         <ul>
           <li>Email: alexander.pervykh.5545@gmail.com</li>
           <li>Discord: Sasha Pervykh (@sashapervykh)</li>
@@ -38,7 +40,7 @@
         </ul>
       </div>
       <div>
-        <h2>Skills</h2>
+        <h2 id="Skills">Skills</h2>
         <ul>
           <li>JavaScript</li>
           <li>CSS</li>
@@ -47,12 +49,22 @@
         </ul>
       </div>
       <div>
-        <h2>My projects</h2>
+        <h2 id="Code example">Code example</h2>
+        <code>
+          function contact(name, number) { this.name = name; this.number =
+          number; this.print = function (name, number) { console.log(name + ': '
+          + number); } } var a = new contact("David", 12345); var b = new
+          contact("Amy", 987654321); a.print(a.name, a.number); b.print(b.name,
+          b.number);
+        </code>
+      </div>
+      <div>
+        <h2 id="My projects">My projects</h2>
         Unfortunately I have not finished any project yet, but I am working on
         it. Soon this section will be updated.
       </div>
       <div>
-        <h2>Education</h2>
+        <h2 id="Education">Education</h2>
         <ul>
           <li>
             Saint-Petersburg State University, Bachelor Degree in Law -
@@ -64,7 +76,7 @@
         </ul>
       </div>
       <div>
-        <h2>Language skills</h2>
+        <h2 id="Language skills">Language skills</h2>
         <ul>
           <li>Russian - native</li>
           <li>English - advanced</li>
