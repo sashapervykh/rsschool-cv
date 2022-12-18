@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>CV_Pervykh_A</title>
+  </head>
+  <body>
+    <header class="wrap">
+      <div>
+        <nav>
+          <ul class="navi">
+            <li><a href="#Aboutme" class="naviitem">About me</a></li>
+            <li><a href="#Contacts" class="naviitem">Contacts</a></li>
+            <li><a href="#Skills" class="naviitem">Skills</a></li>
+            <li><a href="#Codeexample" class="naviitem">Code example</a></li>
+            <li><a href="#Myprojects" class="naviitem">My projects</a></li>
+            <li><a href="#Education" class="naviitem">Education</a></li>
+            <li>
+              <a href="#Languageskills" class="naviitem">Language skills</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap">
+      <div>
+        <div class="Generaldata">
+          <div>
+            <h1>Aleksandr Pervykh</h1>
+            <h3>Front-End Developer</h3>
+          </div>
+          <div>
+            <img
+              src="./assets/img/My_photo.jpg"
+              alt="My_photo"
+              class="Myphoto"
+            />
+          </div>
+        </div>
+        <div>
+          <h2 id="Aboutme">About me</h2>
+          I am a beginner in coding. Currently my profession is not connected
+          with IT sphere. But I am really interested in becoming a Front-End
+          developer.
+        </div>
+        <div>
+          <h2 id="Contacts">Contacts</h2>
+          <ul>
+            <li>Email: alexander.pervykh.5545@gmail.com</li>
+            <li>Discord: Sasha Pervykh (@sashapervykh)</li>
+            <li>Saint-Petersburg, Russia</li>
+          </ul>
+        </div>
+        <div>
+          <h2 id="Skills">Skills</h2>
+          <ul>
+            <li>JavaScript</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Git, GitHub</li>
+          </ul>
+        </div>
+        <div>
+          <h2 id="Codeexample">Code example</h2>
+          <pre>
+           <code>
+          
+function contact(name, number) { 
+  this.name = name; 
+  this.number = number; 
+  this.print = function (name, number) { 
+    console.log(name + ': '+ number);
+  } 
+} 
+var a = new contact("David", 12345); 
+var b = new
+contact("Amy", 987654321); a.print(a.name, a.number); b.print(b.name, b.number);
+        
+        </code>
+        </pre>
+        </div>
+        <div>
+          <h2 id="Myprojects">My projects</h2>
+          Unfortunately I have not finished any project yet, but I am working on
+          it. Soon this section will be updated.
+        </div>
+        <div>
+          <h2 id="Education">Education</h2>
+          <ul>
+            <li>
+              Saint-Petersburg State University, Bachelor Degree in Law -
+              2011-2015
+            </li>
+            <li>
+              Saint-Petersburg State University, Master Degree in Law -
+              2015-2017
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 id="Languageskills">Language skills</h2>
+          <ul>
+            <li>Russian - native</li>
+            <li>English - advanced</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="wrap">
+        <div class="footer">
+          <div><a href="https://github.com/sashapervykh">My GitHUB</a></div>
+          <div>2021</div>
+          <div>
+            <a href="https://rs.school/js/">
+              <img
+                src="./assets/img/rs_school_js.svg"
+                alt="Logo of RS school"
+                class="logo_rs"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
