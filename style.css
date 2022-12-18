@@ -1,0 +1,45 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Unbounded", cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navi {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.naviitem {
+  padding: 0 5px;
+  line-height: 50px;
+}
+
+.logo_rs {
+  height: 35px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Myphoto {
+  height: 300px;
+  margin-right: 50px;
+}
+.Generaldata {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+  align-items: center;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
