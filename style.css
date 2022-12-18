@@ -1,0 +1,28 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Unbounded", cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navi {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.naviitem {
+  padding: 0 5px;
+  line-height: 50px;
+}
+
+.logo_rs {
+  height: 35px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

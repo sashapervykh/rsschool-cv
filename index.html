@@ -4,29 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500;600;900&display=swap"
+      rel="stylesheet"
+    />
     <title>CV_Pervykh_A</title>
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">My projects</a></li>
-          <li><a href="#">Education</a></li>
-          <li><a href="#">Language skills</a></li>
+        <ul class="navi">
+          <li><a href="#About me" class="naviitem">About me</a></li>
+          <li><a href="#Contacts" class="naviitem">Contacts</a></li>
+          <li><a href="#Skills" class="naviitem">Skills</a></li>
+          <li><a href="#Code example" class="naviitem">Code example</a></li>
+          <li><a href="#My projects" class="naviitem">My projects</a></li>
+          <li><a href="#Education" class="naviitem">Education</a></li>
+          <li>
+            <a href="#Language skills" class="naviitem">Language skills</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
       <div>
-        <h2>About me</h2>
+        <h1>Aleksandr Pervykh</h1>
+        <h3>Front-End Developer</h3>
+      </div>
+      <div><img src="./assets/img/My photo.jpg" alt="My photo" /></div>
+      <div>
+        <h2 id="About me">About me</h2>
         I am a beginner in coding. Currently my profession is not connected with
         IT sphere. But I am really interested in becoming a Front-End developer.
       </div>
       <div>
-        <h2>Contacts</h2>
+        <h2 id="Contacts">Contacts</h2>
         <ul>
           <li>Email: alexander.pervykh.5545@gmail.com</li>
           <li>Discord: Sasha Pervykh (@sashapervykh)</li>
@@ -34,7 +49,7 @@
         </ul>
       </div>
       <div>
-        <h2>Skills</h2>
+        <h2 id="Skills">Skills</h2>
         <ul>
           <li>JavaScript</li>
           <li>CSS</li>
@@ -43,14 +58,61 @@
         </ul>
       </div>
       <div>
-        <h2>My projects</h2>
+        <h2 id="Code example">Code example</h2>
+        <code>
+          <pre>
+function contact(name, number) { 
+  this.name = name; 
+  this.number = number; 
+  this.print = function (name, number) { 
+    console.log(name + ': '+ number);
+  } 
+} 
+var a = new contact("David", 12345); 
+var b = new
+contact("Amy", 987654321); a.print(a.name, a.number); b.print(b.name, b.number);
+        </pre
+          >
+        </code>
+      </div>
+      <div>
+        <h2 id="My projects">My projects</h2>
         Unfortunately I have not finished any project yet, but I am working on
         it. Soon this section will be updated.
       </div>
       <div>
-        <h2>Education</h2>
+        <h2 id="Education">Education</h2>
+        <ul>
+          <li>
+            Saint-Petersburg State University, Bachelor Degree in Law -
+            2011-2015
+          </li>
+          <li>
+            Saint-Petersburg State University, Master Degree in Law - 2015-2017
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 id="Language skills">Language skills</h2>
+        <ul>
+          <li>Russian - native</li>
+          <li>English - advanced</li>
+        </ul>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer">
+        <div><a href="https://github.com/sashapervykh">My GitHUB</a></div>
+        <div>2021</div>
+        <div>
+          <a href="https://rs.school/js/">
+            <img
+              src="./assets/img/rs_school_js.svg"
+              alt="Logo of RS school"
+              class="logo_rs"
+          /></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
