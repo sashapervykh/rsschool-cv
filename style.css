@@ -1,0 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Unbounded", cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
